@@ -1,123 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<title> Olivia Polus Assignment #1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olivia Polus Assignment #1</title>
 
-<h1 style = "font-family:'Times New Roman'">  
-<img src="ResumePic.JPG" width="210" height="270";style = "border-colour:green">
-&nbsp;&nbsp;&nbsp;&nbsp; Olivia Polus
-</h1>
+    <style>
+        :root{
+            --sage:#9CAF88;
+        }
+
+        body{
+            margin:0;
+            padding:20px;
+            border:12px solid var(--sage);
+            box-sizing:border-box;
+            font-family:'Times New Roman', Times, serif;
+            color:black;
+        }
+
+        .page{
+            max-width:900px;
+            margin:auto;
+        }
+
+        .header{
+            display:flex;
+            align-items:center;
+            gap:20px;
+        }
+
+        .header img{
+            border:6px solid var(--sage);
+            border-radius:10px;
+            width:min(210px, 40vw);
+            height:auto;
+        }
+
+        .linkedin-btn{
+            display:inline-block;
+            margin-top:10px;
+            padding:10px 18px;
+            background:var(--sage);
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+        }
+
+        h3::after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+    </style>
 </head>
-   
-<body style = "color:black;font-family:'Times New Roman'">
+
+<body>
+<div class="page">
+
+    <div class="header">
+        <img src="ResumePic.JPG" alt="Profile Photo">
+        <div>
+            <h1>Olivia Polus</h1>
+            <a class="linkedin-btn" href="https://www.linkedin.com/in/olivia-polus/" target="_blank">
+                Connect on LinkedIn
+            </a>
+        </div>
+    </div>
+
     <h2 style = "font-style:italic;">
         EDUCATION
-    </h2><h2>
-       B.Tech. - Automation Engineering Tchnology
-   </h2><h3> 
-      <span style="float:left">McMaster University, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">Sept 2022 - Dec 2026</span>
-   </h3><br/>
-   <ul>
-      <li>Bachelor of Technology from McMaster University</li>
-      <li>Advanced Diploma from Mohawk College in Chemical Engineering Technology</li>
-      <li>Business Management Certificate from Mohawk College</li>
-   </ul>
-   <p>Relevent Coursework: Instrumentation & Controls, C++ Programming, CAD for Design, Chemical Engineering, Foundations of Business, Project Management, Control Theory,
-      Advanced PLC Programming, Financial Systems, Systems Engineering Fundamentals, Motion Control & Robotics, Digital Electronics, Cloud Computing</p>
-<h2>
-      High School
-   </h2><h3> 
-       <span style="float:left">St. Jean de Brebeuf Catholic Secondary School, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">Sept 2018 - Dec 2022</span>
-   </h3><br/>
-   <ul>
-      <li>High School Diploma</li>
-   </ul><br/>
+    </h2>
+    <h2>B.Tech. - Automation Engineering Tchnology</h2>
+    <h3>
+        <span style="float:left">McMaster University, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">Sept 2022 - Dec 2026</span>
+    </h3>
+    <ul>
+        <li>Bachelor of Technology from McMaster University</li>
+        <li>Advanced Diploma from Mohawk College in Chemical Engineering Technology</li>
+        <li>Business Management Certificate from Mohawk College</li>
+    </ul>
+    <p>Relevent Coursework: Instrumentation & Controls, C++ Programming, CAD for Design, Chemical Engineering, Foundations of Business, Project Management, Control Theory,
+        Advanced PLC Programming, Financial Systems, Systems Engineering Fundamentals, Motion Control & Robotics, Digital Electronics, Cloud Computing</p>
+    <h2>High School</h2>
+    <h3>
+        <span style="float:left">St. Jean de Brebeuf Catholic Secondary School, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">Sept 2018 - Dec 2022</span>
+    </h3>
+    <ul>
+        <li>High School Diploma</li>
+    </ul><br/>
 
+    <h2 style = "font-style:italic;">WORK EXPERIENCE</h2>
+    <h2>Engineering Co-op Student</h2>
+    <h3>
+        <span style="float:left">Aspire Bakeries, Ancaster, ON</span>
+        <span style="float:right;font-weight:normal;">Apr 2024 - Aug 2024, Jan 2025 - Sept 2025</span>
+    </h3>
+    <ul>
+        <li>Used AutoCAD to create equipment layouts and floor plans with accuracy in design specifications that complied to the companies GMPs and Health and Safety rules.</li>
+        <li>Worked with other departments and contractors while participating in regular project meetings that had discussions of design improvements and project timelines, which enhanced skills and understanding of project management.</li>
+        <li>Assisted in conducting trials to evaluate the performance of different machinery and parts, compiling results and presenting findings to senior engineers to test efficiency.</li>
+        <li>Shadowed senior engineers and other managers during meetings and floor walks, gaining insight into what goes into the manufacturing process and challenges faced in the field.</li>
+        <li>Gained hands-on experience installing, running, and collecting temperature and flow data of Keyence flow meters.</li>
+        <li>Created visual presentations to communicate project progress and results to other departments and team members which enhanced transparency.</li>
+    </ul>
+    <h2>Server/Associate</h2>
+    <h3>
+        <span style="float:left">Staff Shop, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">May 2023 - Present</span>
+    </h3>
+    <ul>
+        <li>Demonstrate company mission, vision and values, by helping others with a smile and positive attitude, demonstrating company culture to other employees and clients. </li>
+        <li>Maintain proper dining experience, while serving 1000+ people food during events like The Ride to Conquer Cancer fundraiser, ensuring that quality and health standards are met.</li>
+    </ul>
+    <h2>Chaldean International Languages Teacher</h2>
+    <h3>
+        <span style="float:left">Hamilton Wentworth Catholic District School Board, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">Sept 2022 - Present</span>
+    </h3>
+    <ul>
+        <li>Deliver daily programming that meets the requirements of 20-30 students while adhering to the school board's curriculum.</li>
+        <li>Monitor 100+ students during recess, lunch, gym and school trips, while demonstrating awareness, and knowledge of emergency and safety procedures.</li>
+    </ul><br/>
 
-    <h2 style = "font-style:italic;">
-        WORK EXPERIENCE
-    </h2><h2>
-       Engineering Co-op Student
-   </h2><h3> 
-      <span style="float:left">Aspire Bakeries, Ancaster, ON</span>
-      <span style="float:right;font-weight:normal;">Apr 2024 - Aug 2024, Jan 2025 - Sept 2025</span>
-   </h3><br/>
-   <ul>
-      <li>Used AutoCAD to create equipment layouts and floor plans with accuracy in design specifications that complied to the companies GMPs and Health and Safety rules.</li>
-      <li>Worked with other departments and contractors while participating in regular project meetings that had discussions of design improvements and project timelines, which enhanced skills and understanding of project management.</li>
-      <li>Assisted in conducting trials to evaluate the performance of different machinery and parts, compiling results and presenting findings to senior engineers to test efficiency.</li>
-      <li>Shadowed senior engineers and other managers during meetings and floor walks, gaining insight into what goes into the manufacturing process and challenges faced in the field.</li>
-      <li>Gained hands-on experience installing, running, and collecting temperature and flow data of Keyence flow meters.</li>
-      <li>Created visual presentations to communicate project progress and results to other departments and team members which enhanced transparency.</li>
-   </ul><h2>
-       Server/Associate
-   </h2><h3> 
-      <span style="float:left">Staff Shop, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">May 2023 - Present</span>
-   </h3><br/>
-   <ul>
-      <li>Demonstrate company mission, vision and values, by helping others with a smile and positive attitude, demonstrating company culture to other employees and clients. </li>
-      <li>Maintain proper dining experience, while serving 1000+ people food during events like The Ride to Conquer Cancer fundraiser, ensuring that quality and health standards are met.</li>
-   </ul><h2>
-       Chaldean International Languages Teacher
-   </h2><h3> 
-      <span style="float:left">Hamilton Wentworth Catholic District School Board, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">Sept 2022 - Present</span>
-   </h3><br/>
-   <ul>
-      <li>Deliver daily programming that meets the requirements of 20-30 students while adhering to the school board's curriculum.</li>
-      <li>Monitor 100+ students during recess, lunch, gym and school trips, while demonstrating awareness, and knowledge of emergency and safety procedures.</li>
-   </ul><br/>
+    <h2 style = "font-style:italic;">VOLUNTEER EXPERIENCE</h2>
+    <h2>VP Finance</h2>
+    <h3>
+        <span style="float:left">Bachelor of Technology Association at McMaster University, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">Jan 2025 - Dec 2025</span>
+    </h3>
+    <ul>
+        <li>Managed the Association’s annual budget, allocating funds across events, operations, and student initiatives.</li>
+        <li>Developed and maintained semester and annual financial forecasts to improve budget accuracy and visibility of spending.</li>
+        <li>Oversaw expense approvals and reimbursement procedures to ensure timely and accurate payments.</li>
+    </ul>
+    <h2>Social Media Coordinator</h2>
+    <h3>
+        <span style="float:left">Bachelor of Technology Association at McMaster University, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">Jan 2024 - Dec 2024</span>
+    </h3>
+    <ul>
+        <li>Organize and handle 5+ social media accounts and come up with new engaging ideas for content while also responding to messages on all platforms in a professional and timely manner.</li>
+    </ul>
+    <h2>Teaching Assistant/Event Coordinator</h2>
+    <h3>
+        <span style="float:left">St. Thomas the Apostle Chaldean Catholic Church, Hamilton, ON</span>
+        <span style="float:right;font-weight:normal;">Sept 2018 - Present</span>
+    </h3>
+    <ul>
+        <li>Support and work with the teacher to deliver daily programming that meets the requirements of 20-30 students while adhering to the school board’s curriculum.</li>
+        <li>Plan, organize and finalize all event details for education and social events and ensure satisfaction on the day of the event.</li>
+        <li>Demonstrated experience in coordinating small to large-scale events, meetings, and workshops.</li>
+    </ul><br/>
 
+    <h2 style = "font-style:italic;">SKILLS AND ACHIEVEMENTS</h2>
+    <ul>
+        <li>Bilingual: Fluent in Chaldean and English</li>
+        <li>Responsible, Efficient, Collaborative, Reliable, Good Communicator, and Enthusiastic</li>
+        <li>Mohawk College FANUC CERT HandlingTool Operations and Programming</li>
+        <li>Proficient with Microsoft Office and AutoCAD</li>
+    </ul><br/>
 
+    <footer>
+        &copy; Olivia Polus 2026
+    </footer>
 
- <h2 style = "font-style:italic;">
-        VOLUNTEER EXPERIENCE
-    </h2><h2>
-       VP Finance
-   </h2><h3> 
-      <span style="float:left">Bachelor of Technology Association at McMaster University, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">Jan 2025 - Dec 2025</span>
-   </h3><br/>
-   <ul>
-      <li>Managed the Association’s annual budget, allocating funds across events, operations, and student initiatives.</li>
-      <li>Developed and maintained semester and annual financial forecasts to improve budget accuracy and visibility of spending.</li>
-      <li>Oversaw expense approvals and reimbursement procedures to ensure timely and accurate payments.</li>
-   </ul><h2>
-       Social Media Coordinator
-   </h2><h3> 
-      <span style="float:left">Bachelor of Technology Association at McMaster University, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">Jan 2024 - Dec 2024</span>
-   </h3><br/>
-   <ul>
-      <li>Organize and handle 5+ social media accounts and come up with new engaging ideas for content while also responding to messages on all platforms in a professional and timely manner.</li>
-   </ul><h2>
-       Teaching Assistant/Event Coordinator
-   </h2><h3> 
-      <span style="float:left">St. Thomas the Apostle Chaldean Catholic Church, Hamilton, ON</span>
-      <span style="float:right;font-weight:normal;">Sept 2018 - Present</span>
-   </h3><br/>
-   <ul>
-      <li>Support and work with the teacher to deliver daily programming that meets the requirements of 20-30 students while adhering to the school board’s curriculum.</li>
-      <li>Plan, organize and finalize all event details for education and social events and ensure satisfaction on the day of the event.</li>
-      <li>Demonstrated experience in coordinating small to large-scale events, meetings, and workshops.</li>
-   </ul><br/>
-
-    <h2 style = "font-style:italic;">
-        SKILLS AND ACHIEVEMENTS
-    </h2><ul>
-      <li>Bilingual: Fluent in Chaldean and English</li>
-      <li>Responsible, Efficient, Collaborative, Reliable, Good Communicator, and Enthusiastic</li>
-      <li>Mohawk College FANUC CERT HandlingTool Operations and Programming</li>
-      <li>Proficient with Microsoft Office and AutoCAD</li>
-   </ul><br/>
-
-<footer>
-  &copy; Olivia Polus 2026
-</footer>
-
+</div>
 </body>
 </html>
