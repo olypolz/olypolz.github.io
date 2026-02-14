@@ -53,7 +53,35 @@
             display:block;
             clear:both;
         }
-    </style>
+
+        .copyright{
+    display:inline-block;
+    width:160px;
+    background: linear-gradient(135deg, var(--sage), #cfe3c8);
+    margin:10px auto 0 auto;
+    border-radius:20px;
+    color:black;
+    padding:6px 0;
+    text-align:center;
+    border:1px solid black;
+    box-shadow:0 6px 12px rgba(0,0,0,0.2);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.copyright:hover{
+    transform:scale(1.05) rotate(-1deg);
+    box-shadow:0 12px 20px rgba(0,0,0,0.2);
+}
+
+.job-link{
+    color:black;
+    text-decoration:none;
+}
+
+.job-link:hover{
+    text-decoration:underline;
+}
+</style>
 </head>
 
 <body>
@@ -164,9 +192,12 @@
         <li>Proficient with Microsoft Office and AutoCAD</li>
     </ul><br/>
 
-    <footer>
+    <footer style="text-align:center;">
+    <div class="copyright">
         &copy; Olivia Polus 2026
-    </footer>
+    </div>
+</footer>
+
 
 </div>
 </body>
